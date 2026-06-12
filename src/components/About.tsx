@@ -30,12 +30,17 @@ const About = () => {
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
               <div className="flex items-center gap-3 text-blue-600 font-bold">
                 <Target size={20} />
-                <h3>Current Focus: Frontend Development</h3>
+                <h3>Current Focus: Frontend Engineering</h3>
               </div>
               <p className="text-slate-600 text-sm leading-relaxed">
-                My primary focus is frontend development, where I specialize in building interactive and visually appealing 
-                user interfaces using HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), React.js, and TypeScript. 
-                I prioritize clean code, performance, and user-centered design.
+                I specialize in building modern, responsive, and accessible web applications using React, Next.js, 
+                TypeScript, Tailwind CSS, and modern JavaScript. My focus is on creating intuitive user experiences, 
+                writing clean and maintainable code, optimizing performance, and translating designs into scalable 
+                interfaces that meet both user and business needs.
+              </p>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                I continuously refine my frontend development skills by studying industry best practices, improving 
+                application architecture, and staying up to date with modern web technologies and development workflows.
               </p>
             </div>
 
@@ -64,10 +69,12 @@ const About = () => {
                 <div className="absolute -left-10 top-0 bg-blue-600 p-2 rounded-full text-white">
                   <Rocket size={16} />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">🚀 Future Goal: Full-Stack Developer</h3>
+                <h3 className="text-xl font-bold text-slate-900 mb-2">🚀 Future Goal: Full-Stack Software Engineer & Quality-Focused Developer</h3>
                 <p className="text-slate-600 text-sm">
-                  Strategically planning to expand into backend development to design, develop, and deploy 
-                  complete web systems independently.
+                  My long-term goal is to become a well-rounded software engineer capable of building, testing, deploying, 
+                  and maintaining complete software solutions. Alongside frontend expertise, I am actively expanding my 
+                  knowledge in backend development with NestJS, API design, authentication systems, database management, 
+                  cloud platforms, DevOps practices, CI/CD pipelines, and software architecture.
                 </p>
               </div>
 
@@ -79,21 +86,21 @@ const About = () => {
                     <h4>Backend & APIs</h4>
                   </div>
                   <ul className="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                    <li>Node.js & Express.js</li>
-                    <li>RESTful API Design</li>
-                    <li>JWT Authentication</li>
+                    <li>NestJS & API Design</li>
+                    <li>Authentication Systems</li>
+                    <li>Software Architecture</li>
                   </ul>
                 </div>
 
                 <div className="space-y-3">
                   <div className="flex items-center gap-2 text-slate-900 font-bold">
                     <Database size={18} className="text-blue-600" />
-                    <h4>Databases & DevOps</h4>
+                    <h4>QA, DevOps & Cloud</h4>
                   </div>
                   <ul className="text-sm text-slate-500 space-y-1 list-disc list-inside">
-                    <li>MongoDB & PostgreSQL</li>
-                    <li>Vercel & Render</li>
-                    <li>CI/CD Basics</li>
+                    <li>Automated Testing & QA</li>
+                    <li>Cloud Platforms & CI/CD</li>
+                    <li>Software Reliability</li>
                   </ul>
                 </div>
               </div>
@@ -102,8 +109,10 @@ const About = () => {
               <div className="bg-blue-600 p-6 rounded-2xl text-white">
                 <h4 className="font-bold mb-2 flex items-center gap-2">🌱 Mindset & Growth</h4>
                 <p className="text-sm opacity-90 leading-relaxed">
-                  I believe in continuous learning and building real-world projects. My long-term goal is to 
-                  transform complex ideas into impactful digital solutions.
+                  I believe exceptional software is built through continuous learning, curiosity, and attention to detail. 
+                  Every challenge is an opportunity to improve, every project is a chance to grow, and every line of code 
+                  is a step toward mastery. I am committed to developing solutions that combine technical excellence, great 
+                  user experience, and long-term business value while continuously evolving as a software engineer.
                 </p>
               </div>
 
